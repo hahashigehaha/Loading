@@ -47,10 +47,10 @@ public class Loading  {
 		ObjectAnimator animator = ObjectAnimator.ofFloat(big, "alpha", 0.2f, 1f , 0.2f);
 		ObjectAnimator animator2 = ObjectAnimator.ofFloat(small, "alpha", 1f, 0.2f, 1f);
 		ObjectAnimator animator3 = ObjectAnimator.ofFloat(view, "rotation", 0, 359);
-		ObjectAnimator animator4 = ObjectAnimator.ofFloat(big, "scaleX", 0.3f, 1.4f,0.3f);
-		ObjectAnimator animator5 = ObjectAnimator.ofFloat(small, "scaleX", 1.4f, 0.3f,1.4f);
-		ObjectAnimator animator6 = ObjectAnimator.ofFloat(big, "scaleY", 0.3f, 1.4f,0.3f);
-		ObjectAnimator animator7 = ObjectAnimator.ofFloat(small, "scaleY", 1.4f, 0.3f,1.4f);
+		ObjectAnimator animator4 = ObjectAnimator.ofFloat(big, "scaleX", 0.2f, 1.4f,0.2f);
+		ObjectAnimator animator5 = ObjectAnimator.ofFloat(small, "scaleX", 1.4f, 0.2f,1.4f);
+		ObjectAnimator animator6 = ObjectAnimator.ofFloat(big, "scaleY", 0.2f, 1.4f,0.2f);
+		ObjectAnimator animator7 = ObjectAnimator.ofFloat(small, "scaleY", 1.4f, 0.2f,1.4f);
 		animator.setRepeatCount(Integer.MAX_VALUE);
 		animator2.setRepeatCount(Integer.MAX_VALUE);
 		animator3.setRepeatCount(Integer.MAX_VALUE);
